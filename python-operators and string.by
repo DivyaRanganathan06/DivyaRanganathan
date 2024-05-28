@@ -1,4 +1,4 @@
-#new string using first , mid and last characters of a string
+#new string using first , mid and last characters of a string.
 input_string = "PRADEEP"
 length = len(input_string)
 
@@ -8,4 +8,17 @@ else:
     middle_index = length // 2
     output = input_string[0] + input_string[middle_index] + input_string[-1]
 
+print("Output:", output
+
+#new string using middle three characters.
+input_string = "PRADEEP"
+length = len(input_string)
+
+if length < 3:
+    output = "Input string should have at least 3 characters"
+else:
+    middle_index = length // 2
+    output = input_string[middle_index - 1:middle_index + 2]
+
 print("Output:", output)
+
